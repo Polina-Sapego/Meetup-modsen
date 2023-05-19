@@ -19,7 +19,7 @@ class meetingController {
 
   }
 
-  async updatemeeting1(req,res,next){
+  async updatemeeting(req,res,next){
     try{
       const meetingId = req.params.id;
       const meeting=req.body;
